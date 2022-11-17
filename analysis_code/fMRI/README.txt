@@ -7,7 +7,7 @@
 GLMs
 - batch_GLM1.py, batch_GLM2_onlypost.py, batch_GLM2_onlypostcue_control.py for each subject.
 - Prepare ROIs for each subject: transforms_ROIs.sh
-- After GLMs are finished, convert beta estimates to percent signal change with batch_convert_to_pct_signal_change.py for GLM1 and batch_convert_to_pct_signal_change_GLM2_control.py for GLM2_control
+- After GLMs are finished, convert beta estimates to percent signal change with batch_convert_to_pct_signal_change.py for GLM1 and GLM2 and batch_convert_to_pct_signal_change_GLM2_control.py for GLM2_control
 - Align percent signal change beta estimates to T1 using transform_func_then_PSCcopes_2_highres_batch_SUBJ.sh for each subject
 
 MVPA
